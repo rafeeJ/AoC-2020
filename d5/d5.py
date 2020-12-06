@@ -1,5 +1,3 @@
-import math
-
 f = open('input.txt', 'r')
 
 def ret_data(code):
