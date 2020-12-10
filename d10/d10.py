@@ -24,7 +24,7 @@ d = {}
 d[0] = 1
 for i in y:
     d[i] = d.get(i - 1, 0) + d.get(i - 2, 0) + d.get(i - 3, 0)
-print('Solution to part 1: {}'.format(d[y[-1]]))
+print('Solution to part 2: {}'.format(d[y[-1]]))
 
 
 """
